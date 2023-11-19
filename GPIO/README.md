@@ -15,5 +15,5 @@ GPIO_Write( GPIOC, 0xF );   will write a 1 to the lower 4 bits of Port C.
 
 uint16_t GPIO_ReadInputData( GPIOD );  will return the contents of Port D.
 
-I also plan to write a multi-pin pinMode - (your encouragement with make this happen faster).
+I also plan to write a multi-pin pinMode - (your encouragement will make this happen sooner).
 

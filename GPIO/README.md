@@ -7,7 +7,7 @@ Note that "pins" are expressed as A4, D5 etc due to the multitude of GPIO pins o
 
 ### int gpio.digitalRead( uint32_t pin );
 
-#### digitalWrite and digitalRead are concessions for Arduinites - the are defined  to gpio.write and gpio.read respectively.
+#### digitalWrite and digitalRead are concessions for Arduinites - they are defined to gpio.write and gpio.read respectively.
 
 Writing to multiple pins is provided in the standard MRS peripheral section - I plan to make "wrappers" in my class to provide a consistent interface.  For now here are some useful functions to use.
 

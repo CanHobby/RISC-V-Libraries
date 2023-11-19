@@ -1,0 +1,10 @@
+# the GPIO class provies the following functions:
+
+### int pinMode( uint32_t pin, GPIOMode_TypeDef mode = OUTPUT, FunctionalState irq = DISABLE );
+  sets the mode of pin - allowed modes (grom pins.h are: OUTPUT, INPUT, INPUT_PULLDOWN, INPUT_PULLUP
+
+	int write( uint32_t pin, bool st );
+  sets pin to HIGH or LOW
+
+	uint8_t read( uint32_t pin );
+  return the state of pin

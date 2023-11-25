@@ -8,4 +8,6 @@ and ADC - so far adc.read only ( analogRead and analogWrite are very different a
 
 Next will be SPI because I use it for controlling NeoPixels.
 
-you may wish to view my <a href="https://github.com/CanHobby/RISC-V" target="_blank">updated C++ instructions</a>.
+I have included a sample main.cpp to show actual usage of these classes.
+
+you may wish to view my <a href="https://github.com/CanHobby/RISC-V" target="_blank">updated C++ library installation</a>.

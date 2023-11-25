@@ -10,4 +10,4 @@ Next will be SPI because I use it for controlling NeoPixels.
 
 I have included a sample main.cpp to show actual usage of these classes.
 
-you may wish to view my <a href="https://github.com/CanHobby/RISC-V" target="_blank">updated C++ library installation</a>.
+you may wish to view my <a href="https://github.com/CanHobby/RISC-V/blob/main/addExternLibrary.md" target="_blank">updated C++ library installation</a>.
